@@ -177,3 +177,11 @@
       font-size: 1.1rem;
   }
 }
+
+.overlay {
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 1;
+}

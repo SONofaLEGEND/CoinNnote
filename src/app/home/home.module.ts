@@ -4,6 +4,7 @@ import { TestComponent } from './components/test/test.component';
 import { RouterModule } from '@angular/router';
 import { NavbarModule } from "../shared/modules/navbar/navbar.module";
 import { BestsellersModule } from "../shared/modules/bestsellers/bestsellers.module";
+import { FooterComponent } from './components/footer/footer.component';
 
 
 const routes = [
@@ -16,6 +17,7 @@ const routes = [
 @NgModule({
     declarations: [
         TestComponent,
+        FooterComponent,
     ],
     imports: [
         CommonModule,
