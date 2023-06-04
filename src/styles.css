@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+@font-face {
+    font-family: 'Brim';
+    src: url(../src/assets/fonts/BrimNarrow-Combined1.ttf);
+}
+@font-face {
+    font-family: 'Cosi';
+    src: url(../src/assets/fonts/CosiTimes-Bold.ttf);
+}
+@font-face {
+    font-family: 'Cerilions';
+    src: url(../src/assets/fonts/Cerlions-Regular.otf);
+}
+@font-face {
+    font-family: 'BadGuy';
+    src: url(../src/assets/fonts/BadGuyBlack-Pv4g.ttf);
+}
+@font-face {
+    font-family: 'Grand Slang';
+    src: url(../src/assets/fonts/GrandSlang-B-Side.ttf);
+}
+@font-face {
+    font-family: 'Vogue';
+    src: url(../src/assets/fonts/Vogue.ttf);
+}
+@font-face {
+    font-family: 'Ageya';
+    src: url(../src/assets/fonts/Ageya-Regular.otf);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');

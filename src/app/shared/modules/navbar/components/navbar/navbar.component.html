@@ -1,0 +1,26 @@
+<div [ngStyle]="sideNav ? { transform: 'translateX(0)' } : { transform: 'translateX(-100%)' }" class="fixed top-16 w-72 z-10 side-nav border-r-2 border-green-700 bg-black transition-transform duration-300" style="height: calc(100vh - 64px); background-color: black;">
+    <div class="h-full w-full flex flex-col items-center justify-start py-6 px-8" style="font-family: 'Ageya';" >
+        <div class="py-8 text-gray-100 font-bold text-3xl" >Home</div>
+        <div class="py-8 text-gray-100 font-bold text-3xl" >Coins</div>
+        <div class="py-8 text-gray-100 font-bold text-3xl" >Notes</div>
+        
+        <div class="py-8 text-gray-300 font-bold text-3xl" >Login</div>
+        <div class="flex-1"></div>
+        <div class="flex flex-row items-center justify-around pb-4">
+
+            <i class="text-white text-xl px-4 fa-brands fa-instagram"></i>
+            <i class="text-white text-xl px-4 fa-brands fa-facebook"></i>
+            <i class="text-white text-xl px-4 fa-brands fa-whatsapp"></i>
+        </div>
+    </div>
+</div>
+<nav class="fixed z-30">
+    <div class="h-16 w-screen border-b-2 bg-black border-green-700 flex items-center justify-between px-8 py-4" style="background-image: url(../././../../../../../assets/images/bg1.jpg);">
+        <button (click)="navToggle()" class="border-none"><i class="fa-solid fa-bars text-xl text-green-600"></i></button>
+        <div class="text-xl text-white">
+            Logo
+        </div>
+        <i class="fa-solid fa-cart-shopping text-xl text-green-600"></i>
+    </div>
+    
+</nav>
